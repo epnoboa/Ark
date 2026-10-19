@@ -1,4 +1,3 @@
---- src/App.tsx (原始)
 export default function App() {
   return (
     <div/>
@@ -6,7 +5,6 @@ export default function App() {
 }
 
 
-+++ src/App.tsx (修改后)
 import { useState, useEffect } from 'react'
 
 // ============================================
@@ -520,5 +518,3 @@ function App() {
     </div>
   )
 }
-
-export default App
